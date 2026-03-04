@@ -45,7 +45,7 @@ st.markdown("""
 }
 .stTextInput input {
     text-align: right;
-    font-size: 45px;
+    font-size: 30px;
     background-color: #1C1C1C;
     color: white;
     border: none;
@@ -54,10 +54,10 @@ st.markdown("""
 }
 
 div.stButton > button {
-    height: 70px;
+    height: 65px;
     width: 65px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 24px;
     margin: 5px;
     border: none;
     background-color: #2F2F2F;
