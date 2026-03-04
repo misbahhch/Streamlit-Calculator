@@ -34,39 +34,39 @@ def calculate():
         st.session_state.input_value = "Error"
 
 
-st.markdown("""
-<style>
-.stApp { 
-    background-color: #F5F5F5; 
-}
+# st.markdown("""
+# <style>
+# .stApp { 
+#     background-color: #F5F5F5; 
+# }
 
-.stTextInput input {
-    text-align: right;
-    font-size: 45px;
-    background-color: #1C1C1C;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-}
+# .stTextInput input {
+#     text-align: right;
+#     font-size: 45px;
+#     background-color: #1C1C1C;
+#     color: white;
+#     border: none;
+#     border-radius: 10px;
+#     padding: 10px;
+# }
 
-div.stButton > button {
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-    font-size: 24px;
-    margin: 6px;
-    border: none;
-    background-color: #2F2F2F;
-    color: white;
-    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
-}
+# div.stButton > button {
+#     height: 65px;
+#     width: 65px;
+#     border-radius: 50%;
+#     font-size: 24px;
+#     margin: 6px;
+#     border: none;
+#     background-color: #2F2F2F;
+#     color: white;
+#     box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+# }
 
-div.stButton > button:hover {
-    background-color: darkblue;
-}
-</style>
-""", unsafe_allow_html=True)
+# div.stButton > button:hover {
+#     background-color: darkblue;
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 
 st.text_input(
