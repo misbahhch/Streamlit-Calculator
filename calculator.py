@@ -58,7 +58,7 @@ div.stButton > button {
     width: 65px;
     border-radius: 50%;
     font-size: 24px;
-    margin: 6px;
+    margin: 5px;
     border: none;
     background-color: #2F2F2F;
     color: white;
