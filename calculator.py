@@ -54,7 +54,7 @@ st.markdown("""
 }
 
 div.stButton > button {
-    height: 65px;
+    height: 70px;
     width: 65px;
     border-radius: 50%;
     font-size: 20px;
